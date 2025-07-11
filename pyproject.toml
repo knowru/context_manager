@@ -1,0 +1,26 @@
+[project]
+name = "context_logger"
+version = "0.1.0"
+description = "Log when a context starts and ends and how long it took"
+authors = [
+    { name="Ken Park", email="spark@knowru.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "loguru>=0.7.3"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8.4.1"
+]
+
+[project.urls]
+Homepage = "https://github.com/knowru/context_logger"
+Repository = "https://github.com/knowru/context_logger"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
