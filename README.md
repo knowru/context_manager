@@ -77,3 +77,10 @@ if __name__ == "__main__":
 2025-07-11 14:11:51.238 +09:00 | DEBUG    | context_logger.context_logger:__enter__:35 | some_id=123 |  Started calling API 1 @ __main__.run:21
 2025-07-11 14:11:52.240 +09:00 | DEBUG    | context_logger.context_logger:__exit__:41 | some_id=123 |  Finished calling API 1 @ __main__.run:21 (elapsed: 1001.33 ms)
 ```
+
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.
+
+- Free for non-commercial use.
+- Commercial use requires a separate paid license. Please contact spark@knowru.com for details.
